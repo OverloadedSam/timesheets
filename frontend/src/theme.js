@@ -1,0 +1,36 @@
+export const themeOptions = {
+  palette: {
+    type: 'light',
+    primary: {
+      100: '#e7ced6',
+      200: '#cf9dac',
+      300: '#b76c83',
+      400: '#9f3b59',
+      500: '#870a30',
+      600: '#6c0826',
+      700: '#51061d',
+      800: '#360413',
+      900: '#1b020a',
+      main: '#870a30',
+      light: '#b76c83',
+      dark: '#51061d',
+    },
+    secondary: {
+      100: '#cce7e6',
+      200: '#99cfcc',
+      300: '#66b8b3',
+      400: '#33a099',
+      500: '#008880',
+      600: '#006d66',
+      700: '#00524d',
+      800: '#003633',
+      900: '#001b1a',
+      main: '#008880',
+      light: '#66b8b3',
+      dark: '#003633',
+    },
+  },
+  typography: {
+    fontFamily: ['Open Sans', 'sans-serif'].join(','),
+  },
+};
